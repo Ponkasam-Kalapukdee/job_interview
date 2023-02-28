@@ -209,7 +209,7 @@ describe("test update shop route", () => {
     test("test update shop", async () => {
         const url4 = "/api/terminals";
         let body4 = {
-            "TERM_ID": "517704",
+            "TERM_ID": "517705",
             "TERMINAL_TYPE": "E",
         }
         let res = await request(app).put(url4).send(body4);
